@@ -1,0 +1,12 @@
+# Run commands to generate launcher icons:
+# flutter clean && flutter pub get && dart run flutter_launcher_icons -f flutter_production_flavor.yaml
+# flutter clean ; flutter pub get ; dart run flutter_launcher_icons -f flutter_production_flavor.yaml
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/logo/production/app_logo.png"
+  adaptive_icon_foreground_inset: 5 # only available for Android 8.0 devices and above
+  adaptive_icon_background: "assets/logo/production/app_logo_background.png" # only available for Android 8.0 devices and above
+  adaptive_icon_foreground: "assets/logo/production/app_logo_foreground.png" # only available for Android 8.0 devices and above
+  adaptive_icon_monochrome: "assets/logo/production/app_logo_monochrome.png" # only available for Android 13 devices and above
+  min_sdk_android: 21
+
