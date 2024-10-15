@@ -10,3 +10,15 @@ flutter_launcher_icons:
   adaptive_icon_monochrome: "assets/logo/development/app_logo_monochrome.png" # only available for Android 13 devices and above
   min_sdk_android: 21
 
+
+# Run commands to generate splash screenshots:
+# flutter clean && flutter pub get && dart run flutter_native_splash:create --path=flutter_development_flavor.yaml
+# flutter clean ; flutter pub get ; dart run flutter_native_splash:create --path=flutter_development_flavor.yaml
+flutter_native_splash:
+  color: "#121212"
+  image: "assets/logo/development/app_logo_splashscreen_foreground.png"
+  android: true
+
+  android_12:
+    color: "#121212"
+    image: "assets/logo/development/app_logo_splashscreen_foreground.png"
